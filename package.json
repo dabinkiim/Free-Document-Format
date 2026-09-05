@@ -1,0 +1,22 @@
+{
+  "name": "fdf24-md-paged",
+  "version": "1.0.0",
+  "description": "《자유로운 문서 포맷》— Markdown to print with Paged.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes serve public -p 8080",
+    "build:html": "node scripts/insert-md.js",
+    "build:index": "node scripts/make-index.js",
+    "build:notes": "node scripts/adjust-notes.js"
+  },
+  "keywords": [
+    "pagedjs",
+    "web-to-print",
+    "publishing"
+  ],
+  "author": "김다빈",
+  "license": "CC-BY-NC-ND-4.0",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}

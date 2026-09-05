@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+.vercel
+.vscode/
+*.log
+
+# local working files, not used by the site
+image/
+bindery.min.js
+text_241107ver.html
+markdown/index copy.md
+markdown/.DS_Store
+fig/.DS_Store
+public/fig/.DS_Store
+
+# unused typefaces left in the repo root
+/font/

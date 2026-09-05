@@ -1,0 +1,97 @@
+@media screen, pagedjs-ignore {
+  .fdf-about {
+    position: fixed;
+    top: 56px;
+    left: 16px;
+    z-index: 2147483646;
+    display: block;
+    width: min(360px, calc(100vw - 32px));
+    font-family: 'FDF', serif;
+    color: #111;
+    line-height: 1.7;
+    word-break: keep-all;
+  }
+
+  .fdf-about[hidden] {
+    display: none !important;
+  }
+
+  .fdf-about-panel {
+    position: relative;
+    width: min(360px, 100%);
+    max-height: min(88vh, 720px);
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+    font-size: 12px;
+  }
+
+  .fdf-about-close {
+    appearance: none;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #cfcfcf;
+    cursor: pointer;
+  }
+
+  .fdf-about-close:hover,
+  .fdf-about-close:focus-visible {
+    color: #111;
+  }
+
+  .fdf-about-close svg,
+  .fdf-about-help svg {
+    display: block;
+    pointer-events: none;
+  }
+
+
+  .fdf-about-panel p,
+  .fdf-about-panel li {
+    margin: 0 0 1rem;
+  }
+
+  .fdf-about-panel ol {
+    margin: 0 0 16px;
+    padding-left: 1.2em;
+    list-style: decimal;
+  }
+
+  .fdf-about-panel li {
+    margin-bottom: 3px;
+    list-style: decimal;
+  }
+
+  .fdf-about-help {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 2147483645;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid #cfcfcf;
+    background: #fff;
+    color: #cfcfcf;
+    cursor: pointer;
+  }
+
+  .fdf-about-help:hover,
+  .fdf-about-help:focus-visible {
+    background: #cfcfcf;
+    color: #fff;
+  }
+}
